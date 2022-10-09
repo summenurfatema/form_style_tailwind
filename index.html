@@ -10,43 +10,50 @@
 </head>
 
 <body>
-    <section id="form" class="flex justify-center items-center">
-        <div class="flex flex-col items-center space-y-10 border-8 border-red-300 bg-zinc-200 w-[600px] p-10">
+    <section id="form" class="flex justify-center items-center py-10 container mx-auto">
+        <div class="flex flex-col items-center space-y-4 shadow-lg bg-zinc-200 w-[600px] p-10">
 
+            <!-- img -->
             <img src="https://img.freepik.com/free-vector/illustration-touch-screen-hand-gesture_53876-5607.jpg?w=360&t=st=1665295208~exp=1665295808~hmac=f1394617c60e3693a69ffbcc098c9221850f3184f94c5730861467c80bbae17e"
                 class="h-32 w-32 rounded-3xl" alt="img">
+            <!-- heading -->
             <h1 class="text-4xl font-bold text-gray-600">Create an account</h1>
-            <p class="text-lg">Allready Registered ? <a class="text-blue-600" href="#">Sign in</a></p>
+            <p class="text-lg font-semibold">Allready Registered ? <a class="text-blue-600" href="#">Sign in</a></p>
 
-            <div class="flex flex-col items-start space-y-5 bg-white w-[400px] p-10">
+            <div class="bg-white w-[400px] p-10 rounded-md">
+
+
                 <!-- email -->
-                <label class="text-xl" for="email">Email address</label>
+                <form class="flex flex-col items-start space-y-3">
+                    <label class="text-xl" for="email">Email address</label>
 
-                <input
-                    class="px-3 py-2 rounded-lg shadow-sm border  border-gray-300 w-full focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-500"
-                    type="text" name="" id="">
-                <!-- password -->
-                <label class="text-xl" for="password">Password</label>
+                    <input
+                        class="px-3 py-2 rounded-lg shadow-sm border  border-gray-300 w-full focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-500"
+                        type="text" name="" id="">
+                    <!-- password -->
+                    <label class="text-xl" for="password">Password</label>
 
-                <input
-                    class=" px-3 py-2 rounded-lg shadow-sm border  border-gray-300 w-full focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-500"
-                    type="password" name="" id="">
-                <!-- option -->
-                <div>
-                    <label for="company" class="text-gray-700 font-sm">Company size</label>
-                    <div class="mt-2">
-                        <select name="company-size" id="company-size"
-                            class="appearance-none w-[320px] px-3 py-2 rounded-lg shadow-sm border border-gray-300  focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-500">
-                            <option value="">Please select</option>
-                            <option value="small">1 to 10 employees</option>
-                            <option value="madium">11 to 50 employees</option>
-                            <option value="large">50+ employees</option>
-                        </select>
+                    <input
+                        class=" px-3 py-2 rounded-lg shadow-sm border  border-gray-300 w-full focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-500"
+                        type="password" name="" id="">
+                    <!-- option -->
+                    <div>
+                        <label for="company" class="text-gray-700 font-sm">Company size</label>
+                        <div class="mt-2">
+                            <select name="company-size" id="company-size"
+                                class="w-[320px] px-2 py-2 rounded-lg shadow-sm border border-gray-300  focus:outline-none focus:border-emerald-400 focus:ring-1 focus:ring-emerald-500">
+                                <option value="">Please select</option>
+                                <option value="small">1 to 10 employees</option>
+                                <option value="madium">11 to 50 employees</option>
+                                <option value="large">50+ employees</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
 
-                <!-- button -->
-                <button class="py-2 rounded-md bg-emerald-400 w-full">Sign up</button>
+                    <!-- button -->
+                    <button class="font-semibold text-white py-2 rounded-md bg-emerald-400 w-full">Sign up</button>
+                </form>
+
             </div>
 
         </div>
