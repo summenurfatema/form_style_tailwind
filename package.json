@@ -20,5 +20,8 @@
   "homepage": "https://github.com/summenurfatema/form_style_tailwind#readme",
   "devDependencies": {
     "tailwindcss": "^3.1.8"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.3"
   }
 }
