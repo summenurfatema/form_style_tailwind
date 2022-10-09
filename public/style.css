@@ -591,6 +591,28 @@ video {
   width: 600px;
 }
 
+.w-\[100px\] {
+  width: 100px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
+.w-\[330px\] {
+  width: 330px;
+}
+
+.w-\[320px\] {
+  width: 320px;
+}
+
+.appearance-none {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
 .flex-col {
   flex-direction: column;
 }
