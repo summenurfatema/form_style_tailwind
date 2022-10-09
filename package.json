@@ -1,0 +1,24 @@
+{
+  "name": "form_style_tailwind",
+  "version": "1.0.0",
+  "description": "\"# form_style_tailwind\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/style.css -o ./public/style.css",
+    "watch": "tailwindcss -i ./src/style.css -o ./public/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summenurfatema/form_style_tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/summenurfatema/form_style_tailwind/issues"
+  },
+  "homepage": "https://github.com/summenurfatema/form_style_tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
+}
