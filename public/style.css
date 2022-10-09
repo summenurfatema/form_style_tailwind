@@ -555,12 +555,24 @@ video {
   display: flex;
 }
 
+.h-32 {
+  height: 8rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
 .items-center {
   align-items: center;
 }
 
 .justify-center {
   justify-content: center;
+}
+
+.border-8 {
+  border-width: 8px;
 }
 
 .border-gray-300 {
